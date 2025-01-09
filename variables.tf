@@ -87,17 +87,17 @@ variable "project" {
 variable "timeout_create" {
   description = "리소스 생성 제한 시간"
   type        = string
-  default     = "20m"  # 기본값: 20분
+  default     = "20m" # 기본값: 20분
 }
 
 variable "timeout_update" {
   description = "리소스 업데이트 제한 시간"
   type        = string
-  default     = "20m"  # 기본값: 20분
+  default     = "20m" # 기본값: 20분
 }
 
 variable "timeout_delete" {
   description = "리소스 삭제 제한 시간"
   type        = string
-  default     = "20m"  # 기본값: 20분
+  default     = "20m" # 기본값: 20분
 }
