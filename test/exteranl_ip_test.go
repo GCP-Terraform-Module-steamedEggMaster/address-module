@@ -19,7 +19,7 @@ func TestAddressModuleExternalIp(t *testing.T) {
 
 	// ip_id 출력값 확인
 	ipID := terraform.Output(t, terraformOptions, "ip_id")
-	assert.NotEmpty(t, ipId, "Ip ID should not be empty")
+	assert.NotEmpty(t, ipID, "Ip ID should not be empty")
 
 	// ip_address 출력값 확인
 	ipAddress := terraform.Output(t, terraformOptions, "ip_address")
