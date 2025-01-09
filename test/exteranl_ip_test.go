@@ -17,9 +17,9 @@ func TestAddressModuleExternalIp(t *testing.T) {
 	defer terraform.Destroy(t, terraformOptions) // 테스트 종료 후 리소스 정리
 	terraform.InitAndApply(t, terraformOptions)
 
-	// ip_name 출력값 확인
-	ipName := terraform.Output(t, terraformOptions, "ip_name")
-	assert.NotEmpty(t, ipName, "Ip Name should not be empty")
+	// ip_id 출력값 확인
+	ipID := terraform.Output(t, terraformOptions, "ip_id")
+	assert.NotEmpty(t, ipId, "Ip ID should not be empty")
 
 	// ip_address 출력값 확인
 	ipAddress := terraform.Output(t, terraformOptions, "ip_address")
