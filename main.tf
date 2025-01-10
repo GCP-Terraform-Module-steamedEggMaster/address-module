@@ -1,4 +1,4 @@
-resource "google_compute_address" "address" {
+resource "google_compute_address" "ip" {
   # 필수 옵션
   name = var.name # 리소스 이름 (RFC1035 규칙 준수)
 
