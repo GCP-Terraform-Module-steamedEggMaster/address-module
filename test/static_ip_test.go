@@ -9,7 +9,7 @@ import (
 func TestAddressModuleStaticIp(t *testing.T) {
 	// Terraform 옵션 설정
 	terraformOptions := &terraform.Options{
-		TerraformDir: "../examples/external-ip", // Terraform 루트 모듈 경로
+		TerraformDir: "../examples/static-ip", // Terraform 루트 모듈 경로
 	}
 
 	// Terraform Init 및 Apply 실행
