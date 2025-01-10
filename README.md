@@ -125,7 +125,7 @@ module "fixed_ip_address" {
 | 출력명                      | 설명                                    |
 |---------------------------|----------------------------------------|    
 | `id`                      | 생성된 리소스의 고유 식별자                   |
-| `address_name`            | 생성된 IP 주소의 이름                       |
+| `name`                    | 생성된 IP 주소의 이름                       |
 | `address`                 | 생성된 IP 주소                             |
 | `address_type`            | IP 주소 유형 (EXTERNAL 또는 INTERNAL)      |
 | `self_link`               | 생성된 리소스의 고유 URI                    |
