@@ -12,9 +12,9 @@ module "static_ip" {
   ip_version   = "IPV4"
 
   # 연결 및 설명
-  description = "This is an example static IP for a production environment"
-  subnetwork  = null
-  network     = null
+  description   = "This is an example static IP for a production environment"
+  subnetwork    = null
+  network       = null
   prefix_length = null
 
   # IPv6 관련 설정
