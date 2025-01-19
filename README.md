@@ -147,7 +147,7 @@ module "fixed_ip_address" {
 #### b. Google Provider 버전
 | 버전 범위 | 설명                              |
 |-----------|-----------------------------------|
-| `~> 4.0`  | 최소 지원 버전                   |
+| `~> 6.0`  | 최소 지원 버전                   |
 
 <br>
 
@@ -155,13 +155,14 @@ module "fixed_ip_address" {
 
 - **저장소 구조**:
   ```
-  router-module/
+  address-module/
     ├── .github/workflows/  # github actions 자동화 테스트
     ├── examples/           # 테스트를 위한 루트 모듈 모음 디렉터리
     ├── test/               # 테스트 구성 디렉터리
     ├── main.tf             # 모듈의 핵심 구현
     ├── variables.tf        # 입력 변수 정의
     ├── outputs.tf          # 출력 정의
+    ├── versions.tf         # 버전 정의
     ├── README.md           # 문서화 파일
   ```
 
